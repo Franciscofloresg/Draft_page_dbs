@@ -1,0 +1,139 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><title>My Space â€” SoS2LearnDBS</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="icon" type="image/jpeg" href="assets/img/logos/Logo.jpeg">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+<header class="header">
+  <div class="container header__inner header__inner--simple">
+        <a class="brand" href="index.html" aria-label="SoS2LearnDBS home">
+      <img class="brand__mark" src="assets/img/logos/Logo.jpeg" alt="SoS2LearnDBS">
+    </a>
+    <button class="menu-btn" data-menu-toggle aria-label="Toggle menu">☰</button>
+    <nav class="nav nav--primary" aria-label="Main">
+      <a href="index.html">Home</a>
+      <a href="learn.html">Learning-hub</a>
+      <a href="campaign-detail.html">Challenges</a>
+      <a href="community.html">Community</a>
+      <a href="resources.html">Resource library</a>
+      <a href="dashboard.html">Data & Dashboard</a>
+      <a href="community.html#news">News & Events</a>
+      <a href="learn.html#tutorials">Help & Tutorials</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+  <section class="section">
+    <div class="container">
+      <div class="grid g-8-4" style="align-items:flex-start;gap:var(--s-6)">
+        <div>
+          <h1>Hello, Francisco ðŸ‘‹</h1>
+          <p class="muted">You're 40% through your learning path. Keep going â€” 2 modules away from the next badge.</p>
+
+          <div class="grid g-3 mt-6">
+            <div class="kpi"><span class="kpi__label">Points</span><span class="kpi__value">420</span><span class="kpi__trend">â–² +50 today</span></div>
+            <div class="kpi"><span class="kpi__label">Modules completed</span><span class="kpi__value">6 / 15</span></div>
+            <div class="kpi"><span class="kpi__label">Badges earned</span><span class="kpi__value">3</span></div>
+          </div>
+
+          <div class="tabs mt-6" data-tabs>
+            <button class="tab active" data-tab="progress">Progress</button>
+            <button class="tab" data-tab="badges">Badges</button>
+            <button class="tab" data-tab="saved">Saved</button>
+            <button class="tab" data-tab="camp">Campaigns</button>
+          </div>
+
+          <div class="mt-6" data-panel="progress">
+            <div class="grid g-2">
+              <article class="card"><div class="card__media card__media--azure"></div><div class="card__body">
+                <span class="card__tag">In progress Â· 40%</span><h3 class="card__title">Wetlands that clean rivers</h3>
+                <div class="progress mt-2"><div class="progress__bar" style="width:40%"></div></div></div>
+                <div class="card__footer"><span class="chip chip--teal">+30 pts to next badge</span><a class="btn btn--sm" href="module-detail.html">Continue</a></div></article>
+              <article class="card"><div class="card__media card__media--teal"></div><div class="card__body">
+                <span class="card__tag">In progress Â· 70%</span><h3 class="card__title">From the Danube to the Black Sea</h3>
+                <div class="progress mt-2"><div class="progress__bar" style="width:70%"></div></div></div>
+                <div class="card__footer"><a class="btn btn--sm" href="module-detail.html">Continue</a></div></article>
+            </div>
+          </div>
+
+          <div class="mt-6 grid g-4" hidden data-panel="badges">
+            <div class="badge-tile"><div class="badge badge--teal">â˜…</div><h4>Water Literacy Starter</h4><p>Completed onboarding</p></div>
+            <div class="badge-tile"><div class="badge badge--blue">â—†</div><h4>Data Explorer</h4><p>Viewed 5 dashboards</p></div>
+            <div class="badge-tile"><div class="badge">âœ¿</div><h4>Voice</h4><p>Shared feedback</p></div>
+            <div class="badge-tile"><div class="badge badge--locked">?</div><h4>River Guardian</h4><p>Join a cleanup</p></div>
+          </div>
+
+          <div class="mt-6 grid g-3" hidden data-panel="saved">
+            <article class="card"><div class="card__media card__media--azure"></div><div class="card__body">
+              <span class="card__tag">PDF</span><h3 class="card__title">Danube Wetland Atlas 2025</h3></div>
+              <div class="card__footer"><a class="btn btn--sm btn--secondary" href="resource-detail.html">Open</a></div></article>
+            <article class="card"><div class="card__media card__media--teal"></div><div class="card__body">
+              <span class="card__tag">Video</span><h3 class="card__title">Restoring an oxbow in 6 months</h3></div>
+              <div class="card__footer"><a class="btn btn--sm btn--secondary" href="resource-detail.html">Open</a></div></article>
+            <article class="card"><div class="card__media card__media--sand"></div><div class="card__body">
+              <span class="card__tag">Guidelines</span><h3 class="card__title">Community monitoring</h3></div>
+              <div class="card__footer"><a class="btn btn--sm btn--secondary" href="resource-detail.html">Open</a></div></article>
+          </div>
+
+          <div class="mt-6 grid g-2" hidden data-panel="camp">
+            <article class="card"><div class="card__media card__media--sand"></div><div class="card__body">
+              <span class="card__tag">Joined Â· Active</span><h3 class="card__title">Clean the Lower Danube</h3>
+              <p class="muted">Next action: upload your first sample.</p></div>
+              <div class="card__footer"><a class="btn btn--sm" href="campaign-detail.html">Open</a></div></article>
+            <article class="card"><div class="card__media card__media--teal"></div><div class="card__body">
+              <span class="card__tag">Joined Â· Active</span><h3 class="card__title">Plant for the Delta</h3>
+              <p class="muted">Event scheduled for May 15.</p></div>
+              <div class="card__footer"><a class="btn btn--sm" href="campaign-detail.html">Open</a></div></article>
+          </div>
+        </div>
+
+        <aside>
+          <div class="card"><div class="card__body" style="text-align:center">
+            <div class="badge badge--teal" style="margin:0 auto var(--s-3);width:80px;height:80px;font-size:26px">F</div>
+            <h3 style="color:var(--c-ink);margin-bottom:4px">Francisco</h3>
+            <p class="muted" style="margin:0">Community member Â· Romania</p>
+            <div class="mt-4"><a class="btn btn--secondary btn--block btn--sm" href="#">Edit profile</a></div>
+          </div></div>
+
+          <div class="card mt-4"><div class="card__body">
+            <h3 style="color:var(--c-ink)">Continue learning</h3>
+            <p class="muted">Suggested next module based on your progress.</p>
+            <article class="card mt-4" style="box-shadow:none;border-color:var(--c-rule)"><div class="card__body">
+              <span class="card__tag">Module Â· 18 min</span><h3 class="card__title">Nutrients & eutrophication</h3></div>
+              <div class="card__footer"><a class="btn btn--sm" href="module-detail.html">Start</a></div>
+            </article>
+          </div></div>
+
+          <div class="card mt-4"><div class="card__body">
+            <h3 style="color:var(--c-ink)">See leaderboard</h3>
+            <p class="muted">Opt-in monthly ranking by region.</p>
+            <a class="btn btn--teal btn--block" href="badges.html">Go to Badges & Leaderboard</a>
+          </div></div>
+        </aside>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="footer"><div class="container">
+  <div class="footer__grid">
+    <div><img class="footer__brand-mark" src="assets/img/logos/Logo_W.png" alt="SoS2LearnDBS"><p>Learn, explore, and restore.</p></div>
+    <div><h4>Explore</h4><a href="learn.html">Learn</a><a href="resources.html">Resources</a><a href="community.html">Community</a><a href="dashboard.html">Dashboard</a></div>
+    <div><h4>Account</h4><a href="login.html">Log in</a><a href="register.html">Sign up</a><a href="my-space.html">My Space</a></div>
+    <div><h4>About</h4><a href="#">Partners</a><a href="#">Privacy & GDPR</a><a href="#">Accessibility</a></div>
+  </div>
+  <div class="footer__bottom"><span>Â© 2026 SoS2LearnDBS consortium.</span><span>Funded by the European Union.</span></div>
+</div></footer>
+<script src="assets/js/main.js"></script>
+</body></html>
+
+
+
+
+

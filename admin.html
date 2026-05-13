@@ -1,0 +1,105 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><title>Admin â€” SoS2LearnDBS</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="icon" type="image/jpeg" href="assets/img/logos/Logo.jpeg">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+<header class="header">
+  <div class="container header__inner header__inner--simple">
+        <a class="brand" href="index.html" aria-label="SoS2LearnDBS home">
+      <img class="brand__mark" src="assets/img/logos/Logo.jpeg" alt="SoS2LearnDBS">
+    </a>
+    <button class="menu-btn" data-menu-toggle aria-label="Toggle menu">☰</button>
+    <nav class="nav nav--primary" aria-label="Main">
+      <a href="index.html">Home</a>
+      <a href="learn.html">Learning-hub</a>
+      <a href="campaign-detail.html">Challenges</a>
+      <a href="community.html">Community</a>
+      <a href="resources.html">Resource library</a>
+      <a href="dashboard.html">Data & Dashboard</a>
+      <a href="community.html#news">News & Events</a>
+      <a href="learn.html#tutorials">Help & Tutorials</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main" class="app">
+  <aside class="sidebar">
+    <span class="sidebar__title">Content</span>
+    <a href="admin.html" class="active">ðŸ“Š Overview</a>
+    <a href="admin-content.html">ðŸ“š Resources & Modules</a>
+    <a href="#">ðŸ“ Quizzes</a>
+    <a href="#">ðŸŽ¯ Campaigns</a>
+    <a href="#">ðŸ… Badges</a>
+    <span class="sidebar__title mt-4">Community</span>
+    <a href="#">ðŸ’¬ Feedback</a>
+    <a href="#">ðŸ‘¥ Users</a>
+    <span class="sidebar__title mt-4">Insights</span>
+    <a href="admin-analytics.html">ðŸ“ˆ Analytics</a>
+    <a href="#">âš™ Settings</a>
+  </aside>
+
+  <section class="app__main">
+    <div class="flex justify-between items-center mb-6" style="flex-wrap:wrap;gap:var(--s-3)">
+      <div><h1>Overview</h1><p class="muted" style="margin:0">Welcome back. Hereâ€™s what needs your attention today.</p></div>
+      <div class="flex gap-2">
+        <a class="btn btn--teal" href="admin-content.html">+ Add content</a>
+        <a class="btn btn--secondary" href="#">Review feedback (7)</a>
+      </div>
+    </div>
+
+    <div class="grid g-4">
+      <div class="kpi"><span class="kpi__label">New sign-ups (7d)</span><span class="kpi__value" data-count="128">0</span><span class="kpi__trend">â–² +18%</span></div>
+      <div class="kpi"><span class="kpi__label">Module completions</span><span class="kpi__value" data-count="412">0</span><span class="kpi__trend">â–² +9%</span></div>
+      <div class="kpi"><span class="kpi__label">New feedback</span><span class="kpi__value">7</span><span class="kpi__trend">â–² needs review</span></div>
+      <div class="kpi"><span class="kpi__label">Active campaigns</span><span class="kpi__value">3</span><span class="kpi__trend">no issues</span></div>
+    </div>
+
+    <div class="grid g-8-4 mt-6">
+      <div class="chart">
+        <h3>Pending tasks</h3>
+        <table class="table" style="border:none">
+          <thead><tr><th>Task</th><th>Type</th><th>Due</th><th></th></tr></thead>
+          <tbody>
+            <tr><td>Review 7 new feedback entries</td><td>Feedback</td><td>Today</td><td><a class="btn btn--sm" href="#">Open</a></td></tr>
+            <tr><td>Approve module: "Biodiversity in freshwater"</td><td>Content</td><td>Tomorrow</td><td><a class="btn btn--sm btn--secondary" href="admin-content.html">Review</a></td></tr>
+            <tr><td>Publish event: Delta Open Day</td><td>Event</td><td>May 2</td><td><a class="btn btn--sm btn--secondary" href="#">Edit</a></td></tr>
+            <tr><td>Verify campaign data: Plant for the Delta</td><td>Campaign</td><td>Weekly</td><td><a class="btn btn--sm btn--secondary" href="#">Check</a></td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="chart">
+        <h3>Recent feedback</h3>
+        <div style="display:flex;flex-direction:column;gap:var(--s-3)">
+          <div style="padding:var(--s-3);border:1px solid var(--c-rule);border-radius:var(--r-md)">
+            <span class="status active">NEW</span>
+            <p style="margin:8px 0 4px">"Loved the oxbow video, please add subtitles in Bulgarian."</p>
+            <span class="muted" style="font-size:12px">Teodora Â· Apr 19</span>
+          </div>
+          <div style="padding:var(--s-3);border:1px solid var(--c-rule);border-radius:var(--r-md)">
+            <span class="status active">NEW</span>
+            <p style="margin:8px 0 4px">"The wetlands quiz is fun â€” can we have more?"</p>
+            <span class="muted" style="font-size:12px">Andrei Â· Apr 18</span>
+          </div>
+          <div style="padding:var(--s-3);border:1px solid var(--c-rule);border-radius:var(--r-md)">
+            <span class="status draft">IN REVIEW</span>
+            <p style="margin:8px 0 4px">"Mobile filters are hard to reach â€” consider a bottom sheet."</p>
+            <span class="muted" style="font-size:12px">Ioana Â· Apr 17</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+<script src="assets/js/main.js"></script>
+</body></html>
+
+
+
+

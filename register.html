@@ -1,0 +1,56 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><title>Sign up â€” SoS2LearnDBS</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="icon" type="image/jpeg" href="assets/img/logos/Logo.jpeg">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+<header class="header">
+  <div class="container header__inner header__inner--simple">
+        <a class="brand" href="index.html" aria-label="SoS2LearnDBS home">
+      <img class="brand__mark" src="assets/img/logos/Logo.jpeg" alt="SoS2LearnDBS">
+    </a>
+    <button class="menu-btn" data-menu-toggle aria-label="Toggle menu">☰</button>
+    <nav class="nav nav--primary" aria-label="Main">
+      <a href="index.html">Home</a>
+      <a href="learn.html">Learning-hub</a>
+      <a href="campaign-detail.html">Challenges</a>
+      <a href="community.html">Community</a>
+      <a href="resources.html">Resource library</a>
+      <a href="dashboard.html">Data & Dashboard</a>
+      <a href="community.html#news">News & Events</a>
+      <a href="learn.html#tutorials">Help & Tutorials</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main" class="auth-page">
+  <div class="auth-card">
+    <h1>Create your account</h1>
+    <p class="muted">Join thousands learning about and restoring the Danube and Black Sea.</p>
+    <form onsubmit="event.preventDefault(); window.location.href='my-space.html'">
+      <div class="field"><label for="name">Full name</label><input class="input" id="name" type="text" placeholder="Jane Doe" required></div>
+      <div class="field"><label for="email2">Email</label><input class="input" id="email2" type="email" placeholder="you@example.org" required></div>
+      <div class="field"><label for="pwd2">Password</label><input class="input" id="pwd2" type="password" placeholder="At least 8 characters" required></div>
+      <div class="field"><label for="role">I am a...</label>
+        <select class="select" id="role"><option>Student</option><option>Teacher</option><option>Researcher</option><option>Policymaker</option><option>Community member</option><option>Other</option></select>
+      </div>
+      <div class="field" style="flex-direction:row;align-items:flex-start;gap:10px">
+        <input type="checkbox" id="gdpr" required style="margin-top:4px">
+        <label for="gdpr" style="font-weight:500;font-size:13px;color:var(--c-muted)">I agree to the <a href="#">privacy policy</a> and the processing of my data (GDPR).</label>
+      </div>
+      <button type="submit" class="btn btn--block btn--lg">Create account</button>
+    </form>
+    <div class="auth-links"><a href="login.html">â† Back to login</a><a href="#">Need help?</a></div>
+  </div>
+</main>
+<script src="assets/js/main.js"></script>
+</body></html>
+
+
+
+

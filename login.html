@@ -1,0 +1,50 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><title>Log in â€” SoS2LearnDBS</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="icon" type="image/jpeg" href="assets/img/logos/Logo.jpeg">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+<header class="header">
+  <div class="container header__inner header__inner--simple">
+        <a class="brand" href="index.html" aria-label="SoS2LearnDBS home">
+      <img class="brand__mark" src="assets/img/logos/Logo.jpeg" alt="SoS2LearnDBS">
+    </a>
+    <button class="menu-btn" data-menu-toggle aria-label="Toggle menu">☰</button>
+    <nav class="nav nav--primary" aria-label="Main">
+      <a href="index.html">Home</a>
+      <a href="learn.html">Learning-hub</a>
+      <a href="campaign-detail.html">Challenges</a>
+      <a href="community.html">Community</a>
+      <a href="resources.html">Resource library</a>
+      <a href="dashboard.html">Data & Dashboard</a>
+      <a href="community.html#news">News & Events</a>
+      <a href="learn.html#tutorials">Help & Tutorials</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main" class="auth-page">
+  <div class="auth-card">
+    <h1>Welcome back</h1>
+    <p class="muted">Log in to track your progress and join campaigns.</p>
+    <form onsubmit="event.preventDefault(); window.location.href='my-space.html'">
+      <div class="field"><label for="email">Email</label><input class="input" id="email" type="email" placeholder="you@example.org" required></div>
+      <div class="field"><label for="pwd">Password</label><input class="input" id="pwd" type="password" placeholder="â€¢â€¢â€¢â€¢â€¢â€¢â€¢â€¢" required><span class="help">Minimum 8 characters.</span></div>
+      <button type="submit" class="btn btn--block btn--lg">Log in</button>
+    </form>
+    <div class="auth-links"><a href="#">Forgot password?</a><a href="register.html">Create account â†’</a></div>
+    <hr>
+    <button class="btn btn--secondary btn--block">Continue with institutional SSO</button>
+  </div>
+</main>
+<script src="assets/js/main.js"></script>
+</body></html>
+
+
+
+
