@@ -334,31 +334,24 @@ hr { border: 0; border-top: 1px solid var(--c-rule); margin: var(--s-6) 0; }
 .footer__grid { display: grid; grid-template-columns: 2fr 1fr 1fr 1fr; gap: var(--s-6); }
 .footer__bottom { margin-top: var(--s-6); padding-top: var(--s-4); border-top: 1px solid rgba(255,255,255,0.18);
   display: flex; justify-content: space-between; align-items: center; font-size: 13px; flex-wrap: wrap; gap: var(--s-3); }
-.footer__affiliations { display: flex; align-items: stretch; gap: var(--s-3); flex-wrap: wrap; margin-top: var(--s-4); }
-.footer__logo {
-  display: inline-flex;
-  flex-direction: column;
-  gap: 2px;
-  min-width: 178px;
-  padding: 10px 12px;
-  border: 1px solid transparent;
-  border-radius: var(--r-md);
-  font-size: 11px;
-  font-weight: 700;
-  line-height: 1.25;
-  color: #fff;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
+.footer__affiliations {
+  margin-top: var(--s-4);
+  max-width: 760px;
 }
-.footer__logo span:last-child {
-  font-size: 13px;
-  font-weight: 600;
-  letter-spacing: 0;
-  text-transform: none;
+.footer__mission-strip {
+  margin: 0;
+  padding: 10px;
+  border-radius: 18px;
+  background: rgba(255,255,255,0.08);
+  border: 1px solid rgba(255,255,255,0.18);
+  box-shadow: 0 12px 30px rgba(6,26,54,0.18);
 }
-.footer__logo-label { color: rgba(255,255,255,0.76); }
-.footer__logo--eu { background: rgba(114,206,247,0.14); border-color: rgba(114,206,247,0.3); }
-.footer__logo--mission { background: rgba(185,110,59,0.18); border-color: rgba(216,197,167,0.34); }
+.footer__mission-image {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+}
 .footer__disclaimer {
   margin-top: var(--s-4);
   max-width: 640px;
@@ -480,6 +473,8 @@ hr { border: 0; border-top: 1px solid var(--c-rule); margin: var(--s-6) 0; }
   .menu-btn { display: inline-flex; align-items: center; justify-content: center; margin-left: auto; }
   .footer__brand-mark { height: 48px; max-width: 280px; }
   .footer__grid { grid-template-columns: 1fr; }
+  .footer__mission-strip { padding: 8px; border-radius: 14px; }
+  .footer__mission-image { border-radius: 10px; }
   .hide-mobile { display: none; }
   .hide-desktop { display: block; }
 }
